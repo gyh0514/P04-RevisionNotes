@@ -17,6 +17,7 @@ public class SecondActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//TODO implement the Custom ListView
+		lv = (ListView) findViewById(R.id.lv);
 
 
 		DBHelper db = new DBHelper(SecondActivity.this);
